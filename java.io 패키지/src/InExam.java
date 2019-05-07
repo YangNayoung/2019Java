@@ -1,5 +1,3 @@
-package hs.kr.emirim.data;
-
 import java.io.*;
 
 public class InExam {
@@ -10,9 +8,9 @@ public class InExam {
 		float acerage = 0;
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		try {
-			System.out.println("Enter the string(정수) >");
+			System.out.println("Enter the string(�젙�닔) >");
 			a = in.readLine();
-			System.out.println("Enter the string(정수) >");
+			System.out.println("Enter the string(�젙�닔) >");
 			b = in.readLine();
 		}
 		catch(IOException e) {
@@ -24,7 +22,7 @@ public class InExam {
 		sum = c + d;
 		float average = (float)sum/2;
 		System.out.println(a+" + "+b+" = "+sum);
-		System.out.println("평균 = " + average);
+		System.out.println("�룊洹� = " + average);
 	}
 
 }
