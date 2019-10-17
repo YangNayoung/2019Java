@@ -1,5 +1,9 @@
-import javax.swing.*;
-import java.awt.*;
+package images;
+
+import java.awt.Color;
+import java.awt.Graphics;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
 
 public class GraphicsFillEx extends JFrame {
 	private MyPanel panel = new MyPanel();
